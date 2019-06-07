@@ -1,0 +1,295 @@
+body {
+	padding-left: 0;
+	margin-left: 0;
+
+    border: 0;
+   background-color: ;
+}
+.row1{
+	width: 100%;
+}
+.jumbotron {
+ margin-bottom: 0rem;
+  border-radius: none;
+  background-color: #ffffff;
+  width: 100%;
+  height: auto;
+  /*height:15vh;*/
+  background: -webkit-linear-gradient(to right, #9E9AB4, #ffffff);
+ background: linear-gradient(to right, #9E9AB4, #ffffff);
+}
+ .jumbotron img{
+ 	height: 85px;
+ 	margin: 0;
+ 	padding: 0;
+ }
+ 
+ @media (min-width: 320px) {
+  .jumbotron {
+    padding-bottom: 0;
+    padding-top: 0.4rem;
+    margin-bottom: 0rem;
+}
+.h3{
+	word-wrap: break-word;
+}
+.dropdown-menu {
+		background-color: #4CAF50;
+	}
+.dropdown-menu a {
+		background-color: #4CAF50;
+		color: #ffffff;
+	}
+.dropdown-menu a:hover,
+.dropdown-menu a:focus {
+		background-color: #4CAF50;
+		color: #ffffff;
+	}
+}
+@media (max-width: 768px){
+    .nav .navbar-brand >a{
+    	text-align: center;
+    }
+  
+    .header h3{
+	padding-top:2%;
+	padding-left: 2%;
+}
+	.navbar-collapse ul li{
+        display:inline-block;
+		text-align: center;
+	}
+	
+}
+.navbar{
+	margin-bottom: 0px;
+	padding-bottom: 0;
+}
+.navbar-brand{
+	/*padding-left: 10px;*/
+	margin-left: 10px;
+}
+.navbar-custom {
+    background-color: #4CAF50;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text{
+	color: #ffffff;
+	 color: rgba(255,255,255,.8);
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus{
+	color: #0066ff;
+	background-color: transparent;
+}
+.navbar-custom .navbar-nav >li>a{
+	color:  #ffffff;
+}
+.navbar-custom .navbar-nav > .active>a,
+.navbar-custom .navbar-nav > .active>a:hover,
+.navbar-custom .navbar-nav > .active>a:focus{
+	color:#ffffff;
+	background-color:##4CAF50;    
+}
+.navbar-custom .navbar-nav >li>a:hover,
+.navbar-custom .navbar-nav >li>a:focus{
+	color: #0066ff;
+	background-color: transparent;  
+}
+.navbar-custom .navbar-nav > .open >a,
+.navbar-custom .navbar-nav > .open >a:hover,
+.navbar-custom .navbar-nav > .open >a:focus{
+	background-color: #0066ff;
+	color: #ffffff;
+}
+.container{
+	padding-left: 0;
+}
+nav ul li { 
+  list-style:none;
+  margin:10px;
+  float: right; 
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+navbar-text>a{
+	color: inherit;
+	text-decoration: none;
+}
+p{
+	padding:1em;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: 700;
+    display: block;
+    text-align: left;
+
+}
+.header h3{
+	padding-top:2%;
+}
+.features ul li span{
+	 font: bold 1em 'Trebuchet MS', Arial, Sans-serif;
+	  display: block;
+	  text-align: left;
+	  font-weight: 700;
+	  border-spacing: 5px;
+	  line-height: 20px;
+	  padding-left: 5px;
+}
+/*h1,h2,h3,h4,h5,h6{
+	margin: 9px 0;
+    font-weight: bold;
+    line-height: 18px;
+    color: inherit;
+    font-family: "Times New Roman", Times, serif;
+       
+    color: #333;
+   
+}*/
+h1 {
+	 text-align: left;
+    display: block;
+    font: bold 2em 'Trebuchet MS', Arial, Sans-serif;
+    padding:0.5em;
+    color: #0080ff;
+    font-weight: bold;
+
+}
+.header{
+	text-align: justify;
+}
+.btn-primary{
+	display: block;
+	width: 100%;
+	text-align: center;
+   background-color: /*#80bfff */#4da6ff;
+	font-size: 1.3rem;
+	border-radius: none;
+
+}
+.btn-primary:hover,
+.btn-primary:focus{
+	background-color:  /*#4da6ff*/;
+}
+.right-side,.left-side{
+	padding: 0;
+	margin: 1px 0 1px 0;
+}
+.right-side button,.left-side button{
+	border-radius: none;
+}
+.left-side>ul,
+.right-side> ul{
+	list-style-type: none;
+	margin:0;
+    padding: 0;
+}
+.left-side{
+    padding-left: 0px;
+    margin-left: 0px;
+    
+}
+.left-side ul>li,.right-side>ul>li{
+	margin: 1.0em;
+	padding: 1.0em 0 0em 0;
+	font-size: 1.0em;
+	line-height: 1.0em;
+}
+.left-side>ul li a{
+	display: block;
+	-webkit-transition: all 0.3s ease-out;
+/*    padding-left: 10px;
+    padding-bottom: 0px;*/
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    font-weight: 700;
+    display: block;
+    text-decoration: none;
+    -webkit-box-shadow:   -4px 0px 1px #1a75ff;
+    min-height: 25px;
+    padding-top: 3px;
+    padding-left: 5px;
+/*    transform: scale(1.08);
+*/}
+.right-side >ul li a{
+	display: block;
+	-webkit-transition: all 0.3s ease-out;
+/*    padding-left: 10px;
+    padding-bottom: 0px;*/
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    font-weight: 700;
+    display: block;
+    text-decoration: none;
+    -webkit-box-shadow: 1px 1px 1px  #88887b;
+    min-height: 25px;
+    padding-top: 3px;
+/*    transform: scale(1.08);
+*/}
+.right-side >ul li a{}
+
+.left-side li a:hover,.left-side li a:focus,
+.right-side li a:hover,.right-side li a:focus
+{
+	display: block;
+	-webkit-transition: all 0.3s ease-out;
+   /* padding-left: 10px;*/
+    padding-bottom: 0px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    font-weight: 700;
+    display: block;
+    text-decoration: none;
+    -webkit-box-shadow: 1px 1px 1px #88887b;
+    min-height: 25px;
+    padding-top: 3px;
+    background-color: #007bff;
+    color: #ffffff;
+    /* transform: scale(1.06);*/
+}
+.dropdown-menu a:hover,
+.dropdown-menu a:focus{
+	background-color: #4CAF50;
+}
+.navbar-collapse li a:hover,.navbar-collapse li a:focus{
+	-webkit-transition: all 0.3s ease-out;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    font-weight: 700;
+    display: inline-block;
+    text-decoration: none;
+
+    -webkit-box-shadow: 1px 1px 1px #88887b;
+    min-height: 25px;
+    padding-top: 3px;
+    background-color: #007bff;
+    color: #ffffff;
+
+}
+.dropdown{
+	right: 0; left: auto;
+}
+.web,.features,.steps{
+/*	 background-color: #E5E8E8;
+*/}
+.padding-0 img{
+  height: auto;
+  border-bottom: 1em
+  margin-bottom: 0;
+}
+
+  
+footer a:hover{
+	text-decoration:none;
+}
+
+ 
